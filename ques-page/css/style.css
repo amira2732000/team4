@@ -9,6 +9,15 @@ body {
     font-family: "Noto Kufi Arabic", sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1a1b20;
+}
+
+.bg-body {
+    background-image: linear-gradient(rgba(26, 27, 32, 0.7), rgba(26, 27, 32, 1.7)), url(../../images/world.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: rgb(26, 27, 32 / 20%);
+    z-index: -1;
 }
 
 html {
@@ -50,6 +59,91 @@ ul {
     }
 }
 /* End global rule  */
+/*  Start Header */
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header .logo h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: unset;
+}
+
+header .logo a {
+    color: white;
+}
+
+header .links ul {
+    gap: 20px;
+}
+
+header .links ul a {
+    color: #ffffff80;
+    font-size: 17px;
+}
+
+header .links ul li:hover a {
+    color: #eee;
+}
+
+header .btn a {
+    border-radius: 6px;
+    border: none;
+    color: black;
+    width: fit-content;
+    background-color: #ffc107;
+    padding: 5px 25px;
+}
+
+header .btn a:hover {
+    background-color: #edb407;
+}
+
+@media (max-width: 991px) {
+    header .links, header .btn  {
+        display: none;
+    }
+}
+/*  End Header */
+/* Start Ques */
+.ques .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ques .texts {
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    background-color: #292a2f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding: 8px 15px;
+}
+
+.ques .texts p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+/* End Ques */
+/* Start Space */
+.space {
+    height: 180px;
+}
+
+@media (max-width: 991px) {
+    .space  {
+    height: 80px;
+    }
+}
+/* End Space */
 /* Start Footer */
 footer {
     position: relative;
