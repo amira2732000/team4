@@ -123,7 +123,6 @@ header .btn a:hover {
     border-radius: 15px;
     background-color: #292a2f;
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-top: 40px;
     padding: 8px 15px;
 }
@@ -140,7 +139,7 @@ header .btn a:hover {
 
 @media (max-width: 991px) {
     .space  {
-    height: 80px;
+      height: 80px;
     }
 }
 /* End Space */
