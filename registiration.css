@@ -68,9 +68,10 @@ body {
     padding-bottom: 50px;
 }
 .image img {
-    width: 450px;
+     width: 450px;
     max-width: 100%;
-    border-radius: 50%;
+    border-radius: 50%; 
+  
 }
  .form {
     width: 460px;
@@ -90,18 +91,17 @@ body {
 .form h2 {
     text-align: center;
     font-size: 30px;
-}
-
-.input-group input {
-    border: none;
+} 
+ .input-group input { 
+     border: none;
     outline: none;
     font-size: 16px;
     flex: 1; 
     background: none;
     height: 33px;
 }
-.input-group {
-    position: relative;
+.input-group { 
+     position: relative;
     width: 95%;
     margin-bottom: 15px;
     display: flex;
@@ -145,7 +145,7 @@ button {
     margin-top: 108px;
 }
 
-button:hover {
+ button:hover {
     background-color: #218838;
 }
 
