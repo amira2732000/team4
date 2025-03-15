@@ -4,84 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
     <title> التسجيل</title>
     <link rel="stylesheet" href="registiration.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="image">
-            <img src="/images/register-circle.png" alt="صورة المستخدم">
+    <div class="bg-body">
+        <div class="container">
+            <div class="image">
+                <img src="/images/register-circle.png" alt="صورة المستخدم">
+            </div>
+             <div class="form"> 
+                <h2>سجل</h2>
+                <form>
+                    <div class="input-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="اسم" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="الكنية" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fa fa-pencil-alt"></i>
+                        <input type="text" placeholder="اسم المستخدم" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fa fa-phone"></i>
+                        <input type="tel" placeholder="رقم الهاتف" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="كلمة المرور" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="تكرار كلمة المرور" required>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="agree">
+                        <label for="agree"><a href="using-page/using.html">اتفاقية العضوية</a> لقد قرأت ، وأنا أقبل</label>
+                    </div>
+                    <button type="submit">سجل</button>
+                </form>
+            </div>
         </div>
-         <div class="form"> 
-            <h2>سجل</h2>
-            <form>
-                <!-- <div class="input-group">
-                    <i class="fa fa-user"></i>
-                    <input type="text" placeholder="الاسم" required>
+        <!-- Start Footer  -->
+        <footer>
+            <div class="container">
+                <div class="text">
+                    <h3><a href="index.html">AbdoCenter</a></h3>
+                    <p>سيرفر بيع وزيادة المتابعين الاول عربيا : شراء وزيادة متابعين انستقرام, شراء وزيادة متابعين تويتر, شراء وزيادة لايكات ومشاهدات, شراء وزيادة متابعين تيك توك, ...</p>
                 </div>
-                <div class="input-group">
-                    <input type="text" placeholder="الكلية" required>
+                <div class="links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="registration.html">سجل</a></li>
+                        <li><a href="#">الخدمات</a></li>
+                        <li><a href="API.html">API</a></li>
+                    </ul>
                 </div>
-                <div class="input-group">
-                    <input type="text" placeholder="اسم المستخدم" required>
+                <div class="push">
+                    <h3>ندعم جميع طرق الدفع</h3>
+                    <img src="images/payment-methods.png" alt="image" />
                 </div>
-                <div class="input-group">
-                    <i class="fa fa-envelope"></i>
-                    <input type="email" placeholder="البريد الإلكتروني" required>
-                </div>
-                <div class="input-group">
-                    <input type="tel" placeholder="رقم الهاتف" required>
-                </div>
-                <div class="input-group">
-                    <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="كلمة المرور" required>
-                </div>
-                <div class="input-group">
-                    <input type="password" placeholder="تكرار كلمة المرور" required>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="agree">
-                    <label for="agree"> </label>لقد قرأت   وأنا أقبل <a href="#">  اتفاقية العضوية  </a></label>
-                </div> -->
-                <div class="input-group">
-                    <i class="fa fa-user"></i>
-                    <input type="text" placeholder="اسم" required>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fa fa-user-graduate"></i>
-                    <input type="text" placeholder="الكلية" required>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fa fa-pencil-alt"></i>
-                    <input type="text" placeholder="اسم المستخدم" required>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fa fa-envelope"></i>
-                    <input type="email" placeholder="البريد الإلكتروني" required>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fa fa-phone"></i>
-                    <input type="tel" placeholder="رقم الهاتف" required>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="كلمة المرور" required>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="تكرار كلمة المرور" required>
-                </div>
-                
-                <button type="submit">سجل</button>
-            </form>
-        </div>
+            </div>
+            <p class="tex">حقوق النشر © 2024-2025 A.B.M.S. جميع الحقوق محفوظة.</p>
+        </footer>
+        <!-- End Footer  -->
     </div>
 </body>
 </html>

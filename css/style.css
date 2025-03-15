@@ -53,7 +53,7 @@ ul {
 /* Start Footer */
 footer {
     position: relative;
-    padding-top: 120px;
+    padding-top: 140px;
     z-index: 1;
 }
 
@@ -77,10 +77,21 @@ footer .container {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 45px;
     padding-bottom: 25px;
+    padding-left: 55px;
+}
+
+@media (max-width: 768px) {
+    footer .container {
+        padding-left: 15px;
+    }
+}
+
+footer .text {
+    width: 400px;
 }
 
 footer .text h3 {
-    margin-top: 20px;
+    margin-top: 23px;
     font-size: 17px;
     font-weight: unset;
     width: fit-content;
@@ -100,14 +111,14 @@ footer .text h3:hover a {
 
 footer .text p {
     color: #ffffff80;
-    font-size: 15px;
-    line-height: 1.4;
+    font-size: 14px;
+    line-height: 1.5;
     width: 100%;
 }
 
 footer .links h3 {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 footer .links ul {
@@ -124,13 +135,18 @@ footer .links ul a {
 
 footer .push h3 {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+footer .push img {
+    width: 220px;
 }
 
 footer .tex {
     text-align: center;
     background-color: #1a1b20;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 3px;
     color: #ffffff80;
 }
 /* End Footer */
