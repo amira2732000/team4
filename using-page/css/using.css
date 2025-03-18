@@ -79,6 +79,18 @@ header .logo a {
     color: white;
 }
 
+header .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .icon i {
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
 header .links ul {
     gap: 20px;
 }
@@ -108,6 +120,9 @@ header .btn a:hover {
 @media (max-width: 991px) {
     header .links, header .btn  {
         display: none;
+    }
+    header .icon i {
+        display: flex;
     }
 }
 /*  End Header */
