@@ -117,12 +117,44 @@ header .btn a:hover {
     background-color: #edb407;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
 @media (max-width: 991px) {
-    header .links, header .btn  {
+    header .links, header .btn {
         display: none;
     }
-    header .icon i {
-        display: flex;
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon:hover + .links {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    .links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links ul li {
+        margin: 10px 0;
+    }
+
+    .links ul a {
+        color: white;
     }
 }
 /*  End Header */
