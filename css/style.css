@@ -292,7 +292,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .text-content {
@@ -567,7 +567,7 @@ footer .text {
 }
 
 footer .text h3 {
-    margin-top: 5px;
+    margin-top: 23px;
     font-size: 17px;
     font-weight: unset;
     width: fit-content;
