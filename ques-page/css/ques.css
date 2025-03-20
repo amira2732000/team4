@@ -132,16 +132,16 @@ header .btn a:hover {
         z-index: 1000;
     }
 
-    .links ul {
+    header .links ul {
         flex-direction: column;
         align-items: center;
     }
 
-    .links ul li {
+    header .links ul li {
         margin: 10px 0;
     }
 
-    .links ul a {
+    header .links ul a {
         color: white;
     }
 }
