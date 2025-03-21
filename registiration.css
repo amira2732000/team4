@@ -51,7 +51,7 @@ body {
 }
 
 .bg-body {
-    background-image: linear-gradient(rgba(26, 27, 32, 0.9), rgba(26, 27, 32, 1.7)), url(../../images/world.svg);
+    background-image: linear-gradient(rgba(26, 27, 32, 0.9), rgba(26, 27, 32, 1.7)), url(images/world.svg);
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
@@ -171,7 +171,7 @@ header .btn a:hover {
     max-width: 100%;
     padding: 25px 2px 24px 25px;
     background-color: #292a2f;
-    background-image: url('/images/pattern.svg');
+    background-image: url('images/pattern.svg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;

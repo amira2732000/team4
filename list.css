@@ -20,7 +20,7 @@ body {
 }
 
 .bg-body {
-  background-image: linear-gradient(rgba(26, 27, 32, 0.9), rgba(26, 27, 32, 1.7)), url(../../images/world.svg);
+  background-image: linear-gradient(rgba(26, 27, 32, 0.9), rgba(26, 27, 32, 1.7)), url(images/world.svg);
   background-position: center top;
   background-repeat: no-repeat;
   z-index: -1;
